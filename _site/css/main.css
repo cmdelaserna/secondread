@@ -1,0 +1,42 @@
+body {;
+	 font-family: "proxima-nova",sans-serif;
+	 color: #444443;
+	 font-size: 1.1em;
+	 text-align: center;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+a:hover{
+	border-bottom: 1px dashed #000;
+}
+
+hr {
+	border-color: #fff;
+	padding: 10px 0 20px 0;
+}
+
+h1 {
+	font-family: "brandon-grotesque",sans-serif;
+	color: #333332;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin: 10% 0 20px 0;
+	padding:0;
+	line-height: 2em;
+}
+
+p {
+	line-height: 0.4em;
+}
+
+	p.strong {
+		font-weight: bold;
+	}
+
+	p.links a {
+		font-weight: bold;
+		color: #444443;
+	}
