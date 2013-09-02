@@ -9,13 +9,18 @@ body {;
 	margin: 0 auto;
 }
 
+a {
+	font-weight: bold;
+	color: #444443;
+}
+
 a:hover{
 	border-bottom: 1px dashed #000;
 }
 
 hr {
 	border-color: #fff;
-	padding: 10px 0 20px 0;
+	padding: 0;
 }
 
 h1 {
@@ -29,14 +34,16 @@ h1 {
 }
 
 p {
-	line-height: 0.4em;
+	line-height: 1.7em;
 }
 
-	p.strong {
+	.strong {
 		font-weight: bold;
 	}
 
-	p.links a {
-		font-weight: bold;
-		color: #444443;
+	.byline {
+		margin:0;
+		font-size: 90%;
+		margin-top: -20px;
+		color: #777;
 	}
