@@ -1,7 +1,7 @@
 body {;
 	 font-family: "proxima-nova",sans-serif;
 	 color: #444443;
-	 font-size: 1.1em;
+	 font-size: 1em;
 	 text-align: center;
 }
 
@@ -28,7 +28,7 @@ h1 {
 	color: #333332;
 	font-size: 2.5em;
 	text-transform: uppercase;
-	margin: 10% 0 20px 0;
+	margin: 40px 0 0 0;
 	padding:0;
 	line-height: 2em;
 }
@@ -42,8 +42,10 @@ p {
 	}
 
 	.byline {
+		font-family: "brandon-grotesque",sans-serif;
 		margin:0;
-		font-size: 90%;
-		margin-top: -20px;
-		color: #777;
+		font-size: 80%;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+		color: #999;
 	}
