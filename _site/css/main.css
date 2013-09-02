@@ -10,7 +10,13 @@ body {;
 	position: fixed; 
 	top: 5px;
 	border: none;
+	text-decoration: none;
 }
+
+	.breadcrumbs a:hover{
+		color: #999;
+		border:none;
+	}
 
 .row {
 	margin: 0 auto;
