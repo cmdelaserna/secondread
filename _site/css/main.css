@@ -2,7 +2,7 @@ body {;
 	 font-family: "proxima-nova",sans-serif;
 	 color: #444443;
 	 font-size: 1em;
-	 text-align: center;
+	 /*text-align: center;*/
 	 margin-top: 8%;
 	 background: #f9f9f9;
 }
@@ -25,6 +25,7 @@ body {;
 	background: #fff;
 	padding:40px 0 20px 0;
 	border-radius: 2px;
+	text-align: center;
 }
 
 a {
@@ -54,6 +55,15 @@ h1 {
 		border:none;
 	}
 
+h2 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin: 0 0 10px 0;
+	float: left;
+	clear: left;
+	width: 200px;
+}
+
 p {
 	line-height: 1.7em;
 }
@@ -72,6 +82,15 @@ p {
 		max-width: 150px;
 		border-radius: 2px;
 	}
+
+.content {
+	width: 200px;
+	float: right;
+	margin: 2px 0 10px 0;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	text-align: left;
+}
 
 
 
