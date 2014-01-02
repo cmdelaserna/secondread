@@ -1,18 +1,18 @@
 body {;
-	 font-family: "museo-slab",serif;
+	 font-family: "proxima-nova-alt",sans-serif;
 	 color: #444443;
 	 font-size: 1em;
 	 /*text-align: center;*/
-	 margin-top: 5%;
-	 background: #f9f9f9;
+	 margin-top: 0;
+	 background-color: #faf8f7 !important;
 }
 
 .breadcrumbs {
-	position: fixed; 
-	top: 5px;
+	position: relative; 
+	top: 0px;
 	border: none;
 	text-decoration: none;
-	background: none;
+	background-color: #faf8f7 !important;
 }
 
 	.breadcrumbs a:hover{
@@ -22,10 +22,8 @@ body {;
 
 .row {
 	margin: 0 auto;
-	background: #fff;
 	padding:40px 0 20px 0;
 	border-radius: 2px;
-	text-align: center;
 }
 
 a {
@@ -36,13 +34,18 @@ a {
 a:hover{
 }
 
+a.projects {
+	font-size: 90%;
+	font-weight: normal;
+}
+
 hr {
-	border-color: #fff;
-	padding: 0;
+	border-color: #efefef;
+	padding: 10px;
 }
 
 h1 {
-	font-family: "museo-slab",serif;
+	font-family: "proxima-nova-alt",sans-serif;
 	color: #333332;
 	font-size: 2.5em;
 	text-transform: uppercase;
@@ -55,14 +58,12 @@ h1 {
 		border:none;
 	}
 
-h2 {
-	font-size: 1.5em;
-	line-height: 1.5em;
-	margin: 0 0 10px 0;
-	float: left;
-	clear: left;
-	width: 200px;
-}
+h5 {
+	font-family: "proxima-nova-alt",sans-serif;
+	color: #333332;
+	font-size: 1em;
+	text-transform: uppercase;
+	}
 
 p {
 	line-height: 1.7em;
@@ -74,12 +75,19 @@ p {
 
 	.links {
 		font-size: 80%;
-		padding: 10px;
+		padding: 10px 0;
 		margin:2px 0 0 0;
+		word-spacing: 15px;
+	}
+
+	.caption {
+		font-size: 90%;
+		padding: 0 0 20px 0;
+		text-align: center;
 	}
 
 	img {
-		max-width: 150px;
+		max-width: 100%;
 		border-radius: 2px;
 	}
 
