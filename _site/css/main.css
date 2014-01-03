@@ -27,11 +27,14 @@ body {;
 }
 
 a {
-	font-weight: bold;
-	color: #444443;
+	font-weight: normal;
+	color: #666;
+	text-decoration: underline;
 }
 
 a:hover{
+	color: #444443;
+	text-decoration: none;
 }
 
 a.projects {
