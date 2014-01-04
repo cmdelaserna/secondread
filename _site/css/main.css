@@ -1,9 +1,9 @@
 body {;
 	 font-family: "proxima-nova-alt",sans-serif;
-	 color: #444443;
+	 color: #333334;
 	 font-size: 1em;
 	 /*text-align: center;*/
-	 margin-top: 0;
+	 margin: 0 0 40px 0;
 	 background-color: #faf8f7 !important;
 }
 
@@ -14,6 +14,10 @@ body {;
 	text-decoration: none;
 	background-color: #faf8f7 !important;
 }
+
+	.breadcrumbs a {
+		color: #333332;
+	}
 
 	.breadcrumbs a:hover{
 		color: #999;
@@ -29,23 +33,25 @@ li.unavailable a {
 	font-weight: bold;
 }
 
+li.unavailable {
+}
 
 
 .row {
 	margin: 0 auto;
-	padding:40px 0 20px 0;
+	padding:60px 0 20px 0;
 	border-radius: 2px;
 	background: #fff;
 }
 
 a {
 	font-weight: normal;
-	color: #666;
+	color: #333332;
 	border-bottom: 1px dashed #ccc;
 }
 
 a:hover{
-	color: #444443;
+	color: #666;
 	text-decoration: none;
 }
 
@@ -55,8 +61,8 @@ a.projects {
 }
 
 hr {
-	border-color: #faf8f7;
-	padding: 5px;
+	border-color: #fff;
+	padding: 15px;
 }
 
 h1 {
@@ -76,7 +82,7 @@ h1 {
 h5 {
 	font-family: "proxima-nova-alt",sans-serif;
 	color: #333332;
-	font-size: 1em;
+	font-size: 1.1em;
 	text-transform: uppercase;
 	}
 
