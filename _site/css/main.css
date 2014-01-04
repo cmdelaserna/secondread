@@ -36,6 +36,7 @@ li.unavailable a {
 }
 
 li.unavailable {
+	font-weight: bold;
 }
 
 
@@ -49,7 +50,7 @@ li.unavailable {
 a {
 	font-weight: normal;
 	color: #333332;
-	border-bottom: 1px dashed #ccc;
+	border-bottom: 1px dashed #444;
 }
 
 a:hover{
@@ -64,7 +65,7 @@ a.projects {
 
 hr {
 	border-color: #fff;
-	padding: 10px;
+	padding: 5px;
 }
 
 h1 {
@@ -81,11 +82,11 @@ h1 {
 		border:none;
 	}
 
-h5 {
+h5 a.projects {
 	font-family: "proxima-nova-alt",sans-serif;
 	color: #333332;
-	font-size: 1.1em;
-	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
 	}
 
 p {
@@ -104,7 +105,7 @@ p {
 	}
 
 	.links a {
-		word-spacing: 15px;
+		word-spacing: 2px;
 	}
 
 	.caption {
