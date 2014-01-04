@@ -29,7 +29,7 @@ body {;
 a {
 	font-weight: normal;
 	color: #666;
-	text-decoration: underline;
+	border-bottom: 1px dashed #ccc;
 }
 
 a:hover{
