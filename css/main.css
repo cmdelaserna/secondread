@@ -127,5 +127,9 @@ p {
 	text-align: left;
 }
 
+div.cartodb-legend-stack {
+	box-shadow: none;
+}
+
 
 
