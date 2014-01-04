@@ -9,7 +9,9 @@ body {;
 
 .breadcrumbs {
 	font-family: "proxima-nova-alt",sans-serif;
-	margin:15px;
+	font-size: 1.2em;
+	margin:0 auto;
+	padding:25px;
 	border: none;
 	text-decoration: none;
 	background-color: #faf8f7;
@@ -125,10 +127,6 @@ p {
 	font-size: 1.25em;
 	line-height: 1.5em;
 	text-align: left;
-}
-
-div.cartodb-legend-stack {
-	box-shadow: none;
 }
 
 
