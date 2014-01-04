@@ -3,8 +3,8 @@ var map;
     // initiate leaflet map
     map = new L.Map('cartodb-map', { 
       center: [40.43,-3.65],
-      zoom: 14,
-      maxZoom: 13,
+      zoom: 12,
+      maxZoom: 14,
       minZoom: 11,
     })
 
