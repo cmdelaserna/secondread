@@ -8,15 +8,17 @@ body {;
 }
 
 .breadcrumbs {
-	position: relative; 
-	top: 0px;
+	font-family: "proxima-nova-alt",sans-serif;
+	margin:15px;
 	border: none;
 	text-decoration: none;
-	background-color: #faf8f7 !important;
+	background-color: #faf8f7;
+	text-align: left;
 }
 
 	.breadcrumbs a {
 		color: #333332;
+		font-weight: bold;
 	}
 
 	.breadcrumbs a:hover{
