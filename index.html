@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/main.css" />
   <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="js/vendor/processing.js"></script>
+  <script type="text/javascript">
+  function getProcessingSketchId () { return 'recursive'; }
+  </script>
 
   <script type="text/javascript" src="//use.typekit.net/gmo3csy.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -22,6 +26,10 @@
         <li class="current"><a href="bio.html">Bio</a></li>
       </ul>
     </div>
+      <canvas id="sketch_secondread" data-processing-sources="recursive.pde" style="width:800px;height:800px;";>
+            <p>Your browser does not support the canvas tag.</p>
+            <!-- You need to upgrade your browser. This site is optimize for Chrome & Firefox. -->
+        </canvas>
 
 	<div class="row" style='text-align: center'>
 		 <div class="large-8 small-centered large-centered columns" style='padding:80px 0 80px 0'>
