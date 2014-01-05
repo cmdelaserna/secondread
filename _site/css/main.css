@@ -4,7 +4,7 @@ body {;
 	 font-size: 1em;
 	 /*text-align: center;*/
 	 margin: 0 0 40px 0;
-	 background-color: #faf8f7 !important;
+	 /*background-color: #faf8f7 !important;*/
 }
 
 .breadcrumbs {
@@ -14,7 +14,9 @@ body {;
 	padding:25px;
 	border: none;
 	text-decoration: none;
-	background-color: #faf8f7;
+	/*background-color: #faf8f7;*/
+	background: #fff;
+	border-bottom: 1px solid #faf8f7;
 }
 
 	.breadcrumbs a {
