@@ -1,5 +1,5 @@
 body {;
-	 font-family: "proxima-nova-alt",sans-serif;
+	 font-family: 13px/20px "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 	 color: #333334;
 	 font-size: 1em;
 	 margin: 0 0 40px 0;
@@ -17,20 +17,16 @@ canvas {
   }
 
 .breadcrumbs {
-	font-family: "proxima-nova-alt",sans-serif;
-	font-size: 1.2em;
-	margin:0 auto;
+	font-size: 1.1em;
 	padding:20px 0 20px 10px;
 	border: none;
 	text-decoration: none;
-	/*background-color: #faf8f7;*/
 	background: #fff;
 	border-bottom: 1px solid #faf8f7;
 }
 
 	.breadcrumbs a {
 		color: #333332;
-		font-weight: bold;
 	}
 
 	.breadcrumbs a:hover{
@@ -44,13 +40,7 @@ li.current a {
 
 li.unavailable a {
 	border-bottom: none;
-	font-weight: bold;
 }
-
-li.unavailable {
-	font-weight: bold;
-}
-
 
 .row {
 	margin: 0 auto;
@@ -80,7 +70,6 @@ hr {
 }
 
 h1 {
-	font-family: "proxima-nova-alt",sans-serif;
 	color: #333332;
 	font-size: 2.5em;
 	text-transform: uppercase;
@@ -94,7 +83,6 @@ h1 {
 	}
 
 h5 a.projects {
-	font-family: "proxima-nova-alt",sans-serif;
 	color: #333332;
 	font-size: 1em;
 	font-weight: bold;
