@@ -1,7 +1,10 @@
+* {
+	font-family: "droid-sans-mono",sans-serif;
+}
+
 body {;
-	 font-family: 13px/20px "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
-	 color: #333334;
-	 font-size: 1em;
+	 color: #333;
+	 font-size: 1.2em;
 	 margin: 0 0 40px 0;
 	 background-color:rgba(255, 255, 255, 0.5);
 }
@@ -22,7 +25,7 @@ canvas {
 	border: none;
 	text-decoration: none;
 	background: #fff;
-	border-bottom: 1px solid #faf8f7;
+	color: #333;
 }
 
 	.breadcrumbs a {
@@ -38,8 +41,14 @@ li.current a {
 	border-bottom: none;
 }
 
-li.unavailable a {
+li.unavailable, li.unavailable a {
 	border-bottom: none;
+	color: #333;
+}
+
+.breadcrumbs > .unavailable {
+	color: #888;
+	/*background: #f9f9f9;*/
 }
 
 .row {
